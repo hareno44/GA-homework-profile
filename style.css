@@ -1,0 +1,162 @@
+
+/* ----- HOME ----- */ 
+
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5; /*1 is standard. this is the line height space*/
+	margin: 30px;
+	padding: 50px;
+	display: flex;
+	min-height: 100vh; /*vh= view height*/
+	flex-direction: column;
+}
+
+a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: .5s all ease;
+}
+
+.navLine{
+	color: white;
+	display: inline;
+	height: 28px;
+}
+
+a:hover{
+	color: #ee361b;
+}
+
+#homeTitle{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-top: 15%;
+	margin-right: 15%;
+	margin-bottom: %;
+	margin-left: 15%;
+	padding: 0 2%;
+	font-size: 500%;
+	transition: .5s all ease;
+	border: 2px solid white;
+	border-width: 15px;
+	opacity: 0.65;
+
+}
+
+#homeTitle:hover{
+	color: #ee361b;
+	opacity: .75;
+}
+
+.bgImage{
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: ;
+}
+
+@media screen and (max-width: 1024px){
+	img{
+		left: 50%;
+		margin-left: 50%;
+	}
+}
+
+.topNav{
+	color: #222222;
+	text-align: left;
+}
+
+.bottomNav{
+	color: #222222;
+	text-align: right;
+	margin-top: ;
+}
+/* padding -> border -> margin */
+
+/* ----- ABOUT ME ----- */
+
+.aboutBg{
+	background-color: #1e1e1e;
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	color: /*#ee361b*/ white;
+	text-align: center;
+	border: 10px solid #ee361b;
+	border-right: 15%;
+
+}
+
+p{
+	font-family: Georgia, Garamond, serif;
+	margin-top: 0;
+	margin-bottom: 27px;
+	color: white;
+	}
+
+.listTitle{
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	border: 5px solid #ee361b;
+	margin-top: -2%;
+	}
+
+.aboutList{
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	font-family: Georgia, serif;
+	margin: 0 45%;
+}
+
+li{
+	list-style-type: square;
+	list-style-image: #ee361b;
+}
+
+.stickyFooter{
+	flex: 1;
+}
+/* ----- PORTFOLIO ----- */
+
+h3{
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	border: 5px solid #ee361b;
+	padding: 0 -20px;
+}
+
+.portfolioImg{
+	/*height: 30%;
+	width: 30%;*/
+	position: center;
+	display: inline;
+	opacity: 0.5;
+	transition: 0.5s all ease;
+}
+
+.portfolioImg:hover{
+	opacity: 1;
+}
+
+.imageContain{
+	display:flex;
+	margin: 20px 20px;
+	position: center;
+}
